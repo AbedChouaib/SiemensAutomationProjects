@@ -28,6 +28,7 @@ def WriteMemory(plc, byte, bit, datatype, value):
     elif datatype == S7WLDWord:
         set_dword(result, 0, value)
     plc.write_area(areas["MK"], 0, byte, result)
+    pass
 
 
 def WriteOutput(dev, byte, bit, cmd):
