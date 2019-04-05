@@ -45,6 +45,3 @@ def ReadOutput(dev, byte, bit):
 
 if __name__ == "__main__":
     plc = c.Client()
-    #plc.connect('192.168.31.222', 0, 1)
-    # print ReadMemory(plc, 420, 0, S7WLReal)
-    # print ReadMemory(plc, 100, 0, S7WLWord)
